@@ -4,9 +4,9 @@ The algorithm applies a single neural network to the full image, and then divide
 
 ### files to be downloaded
 
-yolo.cfg (Download from here) — Configuration file
-yolo.weights (Download from here) — pre-trained weights
-coco.names (Download from here)- 80 classes names
+yolo.cfg - Configuration file
+yolo.weights - pre-trained weights
+coco.names - 80 classes names
 
 For each bounding box, the network also predicts the confidence that the bounding box actually encloses an object, and the probability of the enclosed object being a particular class.
 
